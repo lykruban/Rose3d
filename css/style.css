@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+#aSide {
+    height: 750px;
+    width: 600px;
+    position: absolute;
+    top: calc(100% - 750px);
+}
+
+#aSide img,
+model-viewer {
+    height: 750px;
+    width: 1536px;
+}
+model-viewer {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 226, 226));
+  }
